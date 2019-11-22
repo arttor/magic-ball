@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/magic-ball/static/css/main.981f7211.chunk.css",
+    "main.js": "/magic-ball/static/js/main.314d6a30.chunk.js",
+    "main.js.map": "/magic-ball/static/js/main.314d6a30.chunk.js.map",
+    "runtime-main.js": "/magic-ball/static/js/runtime-main.562ee175.js",
+    "runtime-main.js.map": "/magic-ball/static/js/runtime-main.562ee175.js.map",
+    "static/css/2.266626f9.chunk.css": "/magic-ball/static/css/2.266626f9.chunk.css",
+    "static/js/2.9a90ea4d.chunk.js": "/magic-ball/static/js/2.9a90ea4d.chunk.js",
+    "static/js/2.9a90ea4d.chunk.js.map": "/magic-ball/static/js/2.9a90ea4d.chunk.js.map",
+    "index.html": "/magic-ball/index.html",
+    "precache-manifest.be56ce5d51677c5e3ec8db3805b6f841.js": "/magic-ball/precache-manifest.be56ce5d51677c5e3ec8db3805b6f841.js",
+    "service-worker.js": "/magic-ball/service-worker.js",
+    "static/css/2.266626f9.chunk.css.map": "/magic-ball/static/css/2.266626f9.chunk.css.map",
+    "static/css/main.981f7211.chunk.css.map": "/magic-ball/static/css/main.981f7211.chunk.css.map",
+    "static/media/Video720x480.mp4": "/magic-ball/static/media/Video720x480.24592cf9.mp4",
+    "static/media/persik.png": "/magic-ball/static/media/persik.4e1ec840.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.562ee175.js",
+    "static/css/2.266626f9.chunk.css",
+    "static/js/2.9a90ea4d.chunk.js",
+    "static/css/main.981f7211.chunk.css",
+    "static/js/main.314d6a30.chunk.js"
+  ]
+}
