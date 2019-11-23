@@ -5,37 +5,33 @@ import ScreenSpinner from '@vkontakte/vkui/dist/components/ScreenSpinner/ScreenS
 import '@vkontakte/vkui/dist/vkui.css';
 
 import Home from './panels/Home';
-import Persik from './panels/Persik';
+import Ask from './popouts/Ask';
 
 const App = () => {
-	const [activePanel, setActivePanel] = useState('home');
 	const [fetchedUser, setUser] = useState(null);
+	const [question, setQuestion] = useState(null);
 	const [popout, setPopout] = useState(<ScreenSpinner size='large' />);
 
 	useEffect(() => {
-		connect.subscribe(({ detail: { type, data }}) => {
-			if (type === 'VKWebAppUpdateConfig') {
-				const schemeAttribute = document.createAttribute('scheme');
-				schemeAttribute.value = data.scheme ? data.scheme : 'client_light';
-				document.body.attributes.setNamedItem(schemeAttribute);
-			}
-		});
 		async function fetchData() {
+			// get last roll data here
 			const user = await connect.sendPromise('VKWebAppGetUserInfo');
 			setUser(user);
 			setPopout(null);
+			// if user has no roll setPopout(pay)
 		}
 		fetchData();
 	}, []);
 
-	const go = e => {
-		setActivePanel(e.currentTarget.dataset.to);
-	};
+	useEffect(() => {
+		if (question == null && fetchedUser != null) {
+			setPopout(<Ask question={question} setQuestion={setQuestion} setPopout={setPopout} />)
+		}
+	}, [fetchedUser, question]);
 
 	return (
-		<View activePanel={activePanel} popout={popout}>
-			<Home id='home' fetchedUser={fetchedUser} go={go} />
-			<Persik id='persik' go={go} />
+		<View activePanel="home" popout={popout}>
+			<Home id='home' fetchedUser={fetchedUser} question={question} retry={()=>setQuestion(null)}/>
 		</View>
 	);
 }
