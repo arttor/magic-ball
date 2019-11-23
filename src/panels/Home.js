@@ -5,6 +5,7 @@ import PanelHeader from '@vkontakte/vkui/dist/components/PanelHeader/PanelHeader
 import Button from '@vkontakte/vkui/dist/components/Button/Button';
 import Group from '@vkontakte/vkui/dist/components/Group/Group';
 import Div from '@vkontakte/vkui/dist/components/Div/Div';
+import './Home.css';
 
 import videoSample from '../vid/ballDraft.webm';
 
@@ -21,7 +22,7 @@ const Home = ({ id, fetchedUser, question, retry }) => {
 		<Panel id={id}>
 			<Group title={question}>
 				<Div>
-					<video ref={videoRef} width="600" height="400">
+					<video ref={videoRef} width="100%" height="auto">
 						<source src={videoSample} type="video/webm" />
 					</video>
 				</Div>
