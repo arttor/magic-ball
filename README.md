@@ -4,7 +4,7 @@
 ## run local npm server
 `HTTPS=true npm start`
 
-## build production artefact
+## build production artifact
 `npm run predeploy`
 
 ## deploy to github pages  https://arttor.github.io/magic-ball/
