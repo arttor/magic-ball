@@ -1,19 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "0bda583211de3b4e75e8f2b8d19f99c6",
+    "revision": "8807413baa1c66fa32f67df840ed2715",
     "url": "/magic-ball/index.html"
   },
   {
-    "revision": "ac1a71e0ba16b2be7bbe",
+    "revision": "7e624df1d5445e831cf8",
     "url": "/magic-ball/static/css/2.266626f9.chunk.css"
   },
   {
-    "revision": "ac1a71e0ba16b2be7bbe",
-    "url": "/magic-ball/static/js/2.30658a2d.chunk.js"
+    "revision": "8816342f0af61ef81d60",
+    "url": "/magic-ball/static/css/main.05a19604.chunk.css"
   },
   {
-    "revision": "1a569cf16858a595bc45",
-    "url": "/magic-ball/static/js/main.dff8f528.chunk.js"
+    "revision": "7e624df1d5445e831cf8",
+    "url": "/magic-ball/static/js/2.a7f02e26.chunk.js"
+  },
+  {
+    "revision": "8816342f0af61ef81d60",
+    "url": "/magic-ball/static/js/main.54d57d22.chunk.js"
   },
   {
     "revision": "51195cfc3d0ef1583774",

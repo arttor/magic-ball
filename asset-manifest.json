@@ -1,22 +1,25 @@
 {
   "files": {
-    "main.js": "/magic-ball/static/js/main.dff8f528.chunk.js",
-    "main.js.map": "/magic-ball/static/js/main.dff8f528.chunk.js.map",
+    "main.css": "/magic-ball/static/css/main.05a19604.chunk.css",
+    "main.js": "/magic-ball/static/js/main.54d57d22.chunk.js",
+    "main.js.map": "/magic-ball/static/js/main.54d57d22.chunk.js.map",
     "runtime-main.js": "/magic-ball/static/js/runtime-main.562ee175.js",
     "runtime-main.js.map": "/magic-ball/static/js/runtime-main.562ee175.js.map",
     "static/css/2.266626f9.chunk.css": "/magic-ball/static/css/2.266626f9.chunk.css",
-    "static/js/2.30658a2d.chunk.js": "/magic-ball/static/js/2.30658a2d.chunk.js",
-    "static/js/2.30658a2d.chunk.js.map": "/magic-ball/static/js/2.30658a2d.chunk.js.map",
+    "static/js/2.a7f02e26.chunk.js": "/magic-ball/static/js/2.a7f02e26.chunk.js",
+    "static/js/2.a7f02e26.chunk.js.map": "/magic-ball/static/js/2.a7f02e26.chunk.js.map",
     "index.html": "/magic-ball/index.html",
-    "precache-manifest.ea71240c690770e109cac7b640596007.js": "/magic-ball/precache-manifest.ea71240c690770e109cac7b640596007.js",
+    "precache-manifest.058bb51b10e8e11d582642e041123636.js": "/magic-ball/precache-manifest.058bb51b10e8e11d582642e041123636.js",
     "service-worker.js": "/magic-ball/service-worker.js",
     "static/css/2.266626f9.chunk.css.map": "/magic-ball/static/css/2.266626f9.chunk.css.map",
+    "static/css/main.05a19604.chunk.css.map": "/magic-ball/static/css/main.05a19604.chunk.css.map",
     "static/media/ballDraft.webm": "/magic-ball/static/media/ballDraft.597a87d4.webm"
   },
   "entrypoints": [
     "static/js/runtime-main.562ee175.js",
     "static/css/2.266626f9.chunk.css",
-    "static/js/2.30658a2d.chunk.js",
-    "static/js/main.dff8f528.chunk.js"
+    "static/js/2.a7f02e26.chunk.js",
+    "static/css/main.05a19604.chunk.css",
+    "static/js/main.54d57d22.chunk.js"
   ]
 }
