@@ -37,7 +37,6 @@ const App = () => {
       });
   };
 
-
   const debugSetAttemptsZero = () => {
     const newInfo = {
       count: 0,
@@ -54,9 +53,13 @@ const App = () => {
           value: String(newInfo.lastDate)
         })
       )
-      .then(res => {
-        setUserInfo(newInfo);
-      });
+      .then(
+        res => {
+          setUserInfo(newInfo);
+          setQuestion(null);
+        },
+        error => alert("Error: " + error.error_data.error_code)
+      );
   };
 
   useEffect(() => {
@@ -113,8 +116,8 @@ const App = () => {
         question={question}
         left={left}
         retry={retry}
-		updateInfo={updateInfo}
-		debugSetAttemptsZero={debugSetAttemptsZero}
+        updateInfo={updateInfo}
+        debugSetAttemptsZero={debugSetAttemptsZero}
       />
     </View>
   );

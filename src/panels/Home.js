@@ -26,7 +26,7 @@ const Home = ({
       videoRef.current.play();
       updateInfo();
     }
-  }, [question]);
+  }, [question, updateInfo]);
 
   useEffect(() => {
     if (answer == null) {
@@ -37,7 +37,7 @@ const Home = ({
 
   return (
     <Panel id={id}>
-      <Group title={"Осталось " + left + ". " + question}>
+      <Group title={"Осталось " + left + ". " + question ? question : ""}>
         <Div className="video-container">
           <video
             ref={videoRef}
