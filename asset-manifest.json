@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/magic-ball/static/css/main.92a87ebb.chunk.css",
-    "main.js": "/magic-ball/static/js/main.82d4e46c.chunk.js",
-    "main.js.map": "/magic-ball/static/js/main.82d4e46c.chunk.js.map",
+    "main.js": "/magic-ball/static/js/main.12378221.chunk.js",
+    "main.js.map": "/magic-ball/static/js/main.12378221.chunk.js.map",
     "runtime-main.js": "/magic-ball/static/js/runtime-main.562ee175.js",
     "runtime-main.js.map": "/magic-ball/static/js/runtime-main.562ee175.js.map",
     "static/css/2.266626f9.chunk.css": "/magic-ball/static/css/2.266626f9.chunk.css",
     "static/js/2.e0576f63.chunk.js": "/magic-ball/static/js/2.e0576f63.chunk.js",
     "static/js/2.e0576f63.chunk.js.map": "/magic-ball/static/js/2.e0576f63.chunk.js.map",
     "index.html": "/magic-ball/index.html",
-    "precache-manifest.f69a5494c0d1349cc0acb930d6ba91a3.js": "/magic-ball/precache-manifest.f69a5494c0d1349cc0acb930d6ba91a3.js",
+    "precache-manifest.3b5ba1ae6e83ad078c5da91bc3238d0d.js": "/magic-ball/precache-manifest.3b5ba1ae6e83ad078c5da91bc3238d0d.js",
     "service-worker.js": "/magic-ball/service-worker.js",
     "static/css/2.266626f9.chunk.css.map": "/magic-ball/static/css/2.266626f9.chunk.css.map",
     "static/css/main.92a87ebb.chunk.css.map": "/magic-ball/static/css/main.92a87ebb.chunk.css.map",
@@ -20,6 +20,6 @@
     "static/css/2.266626f9.chunk.css",
     "static/js/2.e0576f63.chunk.js",
     "static/css/main.92a87ebb.chunk.css",
-    "static/js/main.82d4e46c.chunk.js"
+    "static/js/main.12378221.chunk.js"
   ]
 }
